@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="active white-black">
+        <div class="theme-changer"></div>
+    </div>
+
+    <section>
+        <div class="clock">
+            <div class="cir seconds-circle">
+                <div class="indicator seconds-indicator"></div>
+                <svg>
+                    <circle cx="60" cy="60" r="60" class="svg-sec"></circle>
+                </svg>
+            </div>
+            <div class="cir minutes-circle">
+                <div class="indicator minutes-indicator"></div>
+                <svg>
+                    <circle cx="50" cy="50" r="50" class="svg-min"></circle>
+                </svg>
+            </div>
+            <div class="cir hour-circle">
+                <div class="indicator hour-indicator"></div>
+                <svg>
+                    <circle cx="40" cy="40" r="40" class="svg-hour"></circle>
+                </svg>
+            </div>
+            <div class="clock-numbers">
+                <span style="--i:1"><b>1</b></span>
+                <span style="--i:2"><b>2</b></span>
+                <span style="--i:3"><b>3</b></span>
+                <span style="--i:4"><b>4</b></span>
+                <span style="--i:5"><b>5</b></span>
+                <span style="--i:6"><b>6</b></span>
+                <span style="--i:7"><b>7</b></span>
+                <span style="--i:8"><b>8</b></span>
+                <span style="--i:9"><b>9</b></span>
+                <span style="--i:10"><b>10</b></span>
+                <span style="--i:11"><b>11</b></span>
+                <span style="--i:12"><b>12</b></span>
+
+            </div>
+        </div>
+        <div class="timebox">
+            <div class="hourbox">00</div>
+            <div class="minutebox">00</div>
+            <div class="secondsbox">00</div>
+            <div class="am-pm-container">
+                <div class="am-pm"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
